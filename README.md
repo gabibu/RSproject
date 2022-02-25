@@ -25,3 +25,14 @@ update the model saving path
 5. train xgboost train_xg_avanzu.ipynb and train_xgbboost_anime.ipynb
 6. train improved xdfm train_improved_xdfm_anime.ipynb
 7. metrics - use avanzu_metrics.ipynb and anime_metrics.ipynb - load the models from the path in 4. 
+
+anim:
+improved XDFM uopdate improvedxdfm.py get_improved_xdfm_model to be the model you want to run metric on
+XDFM update train_anime.py get_model to be the model you want to run metric on
+update xgboost weights path in the notebook 
+
+avanzu:
+XDFM update train_avanzu.py get_model to be the model you want to run metric on
+update xgboost weights path in the notebook 
+
+
